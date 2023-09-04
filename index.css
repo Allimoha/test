@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.header h1{
+    font-size: 45px;
+    color: #204E51;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+}
+.header ul li{
+    font-size: 20px;
+    padding: 20px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.login{
+    background-color: #204E51;
+    padding: 8px 35px;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+}
+.signup{
+    margin-top: 10px;
+    border: 2px solid #204E51;
+    padding: 8px 35px;
+    color: #204E51;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-left: 15px;
+
+}
+
+.hero{
+    background-image: url("https://www.cicnews.com/wp-content/uploads/2023/07/20230705agri.jpg");
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background-size: 100% 100%;
+    height: 530px;
+    text-align: center;
+    opacity: 0.9;
+    color: white;
+}
+.hero h1{
+    padding: 5%;
+    font-size: 80px;
+    /* color: black; */
+}
+
+.hero p{
+    font-size: 25px;
+    color: white;
+    margin: 10px 50px;
+}
+.get-start-btn{
+    margin-top: 20px;
+    background-color: #204E51;
+    padding: 8px 35px;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.learn-more-btn{
+    margin-top: 20px;
+    border: 2px solid #204E51;
+    padding: 8px 35px;
+    color: #204E51;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 15px;
+}
+
+.passion-parent{
+    display: grid;
+    grid-template-columns: 600px 500px;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.passion-title h1{
+    font-size: 60px;
+}
+
+.passion-image img{
+    height: 500px;
+    width: 550px;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.passion-title button{
+    margin-top: 20px;
+    background-color: #204E51;
+    padding: 8px 35px;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+}
+.date{
+    position: relative;
+    background-color: white;
+    box-shadow: 1px 5px 4px grey;
+    top: 92%;
+    left: 28%;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #204E51;
+}
+
+
+.service{
+    margin-top: 70px;
+    text-align: center;
+}
+.service h1{
+    font-size: 60px;
+    color: #204E51;
+}
+.service p{
+    line-height: 20px;
+    margin-top: 13px;
+}
+
+.items-parent{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 20px;
+}
+.item1{
+    padding: 50px 2px;
+    background-color: white;
+    box-shadow: 1px 5px 5px grey;
+    border-radius: 12px;
+    text-align: center;
+    height: 180px;
+}
+.item1 h1{
+    margin-top: 20px;
+}
+
+.benefits-parent{
+    display: grid;
+    grid-template-columns: 512px 450px;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.left-side{
+    background-color: #204E51;
+    height: 520px;
+    border-radius: 30px;
+}
+.icon1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+    margin-top: 40px;
+    /* font-size: 16px; */
+}
+.icon1 img{
+    color: white;
+    /* font-size: 10px; */
+    margin-top: 10px;
+    
+}
+.icon1 h2{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.icon1 p{
+    font-size: 20px;
+}
+
+
+.right-side{
+    margin-top: 50px;
+}
+
+.right-side h1{
+    font-size: 65px;
+    color: #204E51;
+}
+
+.right-side p{
+    margin-top: 15px;
+    /* margin-right: 15px; */
+    font-size: 20px;
+}
+
+.right-side button{
+    background-color: #204E51;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 15px 50px;
+    border: none;
+    margin-top: 25px;
+}
+
+
+.testimonials{
+    text-align: center;
+    margin-top: 80px;
+}
+.testimonials h1{
+    font-family: verdana;
+    font-size: 50px;
+    color: #204E51;
+    margin-bottom: 10px;
+}
+.testimonials p{
+    color: #1E1E1E;
+}
+.test-body{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #204E51;
+    width: 50%;
+    padding: 50px;
+    border-radius: 15px;
+    margin-left: 300px;
+    position: relative;
+}
+
+.rating{
+    margin-bottom: 15px;
+}
+
+.details h2{
+    color: white;    
+    margin-bottom: 15px;
+} 
+.details p{
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    
+}
+.test-title{
+    font-size: 14px;
+}
+.left{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 6px 6px grey;
+    position: absolute;
+    left: 10%;
+    top: 445%;
+    
+}
+.left img{
+    padding: 15px 5px;
+}
+.right{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 6px 6px grey;
+    position: absolute;
+    left: 90%;
+    top: 445%;
+    
+}
+.right img{
+    padding: 15px;
+}
+
+.our-blog{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.our-blog h1{
+    color: #204E51;
+    font-size: 70px;
+}
+.blog-title{
+    font-size: 60px;
+    color: #204E51;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.blog-des{
+    font-size: 14px;
+    color: #1E1E1E;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+
+.blogs{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    /* height: 100px; */
+    /* gap: 40px; */
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 100PX;
+}
+
+.blog1 img {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.blog1 h3, p, a{
+    margin-bottom: 15px;
+}
+
+.blog1 h3{
+    font-size: 30px;
+    color: #204E51;
+}
+
+.blog1 p{
+    font-size: 14px;
+    color: #1E1E1E;
+}
+
+
+
+.footer{
+    background-color: #204E51;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding: 150px 60px;
+    display: grid;
+    grid-template-columns: 300px 150px 150px;
+    justify-content: space-around;
+    color: white;
+}
+.social-media h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.pages h1{
+    margin-bottom: 10px;
+}
+.about h1{
+    margin-bottom: 10px;
+}
+
+.pages p, .about p{
+    line-height: 25px;
+}
+
+.social-image{
+    margin-top: 25px;
+    display: flex;
+    color: white;
+    gap: 20px;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .buttons{
+        display: none;
+    }
+    .header{
+        padding: 12px;
+    }
+    .header ul li{
+        padding: 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .header h1{
+        font-size: 22px;
+        margin-top: 8px;
+    }
+    .hero{
+        height: 300px;
+    }
+    .hero h1{
+        font-size: 26px;
+    }
+    .hero p{
+        font-size: 16px;
+    }
+    .get-start-btn{
+        font-size: 18px;
+        margin-top: 8px;
+    }
+    .learn-more-btn{
+        font-size: 18px;
+        margin-top: 8px;
+    }
+    .passion-parent{
+        display: grid;
+        grid-template-columns: 400px;
+        margin-top: 30px;
+    }
+    .passion-title{
+        padding-left: 12px;
+    }
+    .passion-title h1{
+        font-size: 25px;
+    }
+    .passion-title p{
+        font-size: 14px;
+        margin-top: 4px;
+    }
+    .passion-title button{
+        margin-top: 12px;
+    }
+    .passion-image img{
+        width: 400px;
+        height: 350px;
+        position: relative;
+    }
+    .date{
+        position: absolute;
+        top: 109%;
+        left: 70px;
+    }
+    .service{
+        margin-top: 25px;
+    }
+    .service h1{
+        font-size: 45px;
+    }
+    .service p{
+        font-size: 15px;
+        /* padding: 5px; */
+    }
+    .items-parent{
+        display: grid;
+        grid-template-columns: 170px 170px;
+        gap: 15px;
+    }
+    .item1{
+        padding: 30px 2px;
+    }
+    .item1 h1{
+        font-size: 20px;
+    }
+
+    .benefits-parent{
+        display: grid;
+        grid-template-columns: 400px;
+        margin-top: 0px;
+    }
+    .right-side{
+        padding-left: 15px;
+    }
+    .right-side h1{
+        font-size: 32px;
+    }
+    .right-side p{
+        font-size: 16px;
+        margin-top: 7px;
+        line-height: 20px;
+    }
+    .right-side button{
+        margin-top: 0px;
+        margin-bottom: 25px;
+        padding: 10px 40px;
+        font-size: 20px;
+    }
+    .left-side{
+        margin: 0px 15px;
+        height: 465px;
+        gap: 25px;
+    }
+    .icon1 img{
+        width: 20%;
+    }
+    .icon1{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .title h2{
+        font-size: 35px;
+    }
+    .title p{
+        font-size: 20px;
+    }
+    .testimonials{
+        margin-top: 55px;
+    }
+    .testimonials h1{
+        font-size: 40px;
+    }
+    .testimonials p{
+        font-size: 16px;
+        line-height: 18px;
+        padding: 2px 5px;
+    }
+    .test-body{
+        margin: 10px ;
+        padding: 10px;
+        width: 100%;
+        margin-left: 2px;
+        margin-right: 2px;
+        height: 220px;
+    }
+    .left, .right{
+        display: none;
+    } 
+    .details p{
+        margin-top: 5px;
+        font-size: 13px;
+    }
+    .details h2{
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .rating{
+        margin-bottom: 6px;
+    }
+    .testi-title{
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    .our-blog{
+        margin-top: 25px;
+    }
+    .blog-title{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .blog-des{
+        font-size: 16px;
+        line-height: 20px;
+    }
+   
+}
